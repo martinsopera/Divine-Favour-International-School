@@ -210,7 +210,7 @@ class PDF extends FPDF {
         $this->SetFont('Arial','',10);
         $this->cell(70,20,$this->Image('sign/dfis_logo_p.png',10,10,22),0,0,'C');
        // $this->cell(50,20,$this->Image('sign/dfis_logo_p.png',180,10,24),0,0,'C');
-         $this->cell(50,20,$this->Image('dashboard/user/file/profile/'.$_SESSION['sd']['photo'],180,10,24),0,0,'C');
+         $this->cell(50,20,$this->Image('../../dashboard/user/file/profile/'.$_SESSION['sd']['photo'],180,10,24),0,0,'C');
         $this->Ln(6);
         $this->cell(190,5,'OPARA-NESTOR/EJIOGU COMPOUND,',0,0,'C');
         $this->Ln(4);
